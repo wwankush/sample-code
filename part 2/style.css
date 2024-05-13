@@ -1,0 +1,23 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.game-area {
+    width: 600px;
+    height: 400px;
+    background-color: #f0f0f0;
+    position: relative;
+}
+
+.snake, .food {
+    width: 20px;
+    height: 20px;
+    background-color: #333;
+    position: absolute;
+}
+
+.food {
+    background-color: red;
+}
